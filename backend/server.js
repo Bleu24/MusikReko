@@ -7,6 +7,7 @@ const cyaniteRoutes = require("./routes/cyaniteRoutes"); // ✅ Now pointing to 
 const userRoutes = require("./routes/userRoutes"); // ✅ Now pointing to modular route
 const authRoutes = require("./routes/authRoutes"); // ✅ Now pointing to modular route
 const uploadRoutes = require("./routes/uploadRoutes");
+const spotifyRoutes = require("./routes/spotifyRoutes");
 
 
 const app = express();
@@ -18,6 +19,7 @@ app.use("/api/cyanite", cyaniteRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/upload", uploadRoutes);
+app.use("/api/spotify", spotifyRoutes);
 
 
 // ✅ MongoDB Connection
