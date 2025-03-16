@@ -57,3 +57,6 @@ npm run dev
 
 Your project should now be running successfully!
 
+## Note: 
+Since it has Concurrently, you can just skip to step 5 after you initialize your .env file
+
