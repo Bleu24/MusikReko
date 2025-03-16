@@ -42,7 +42,8 @@ Replace `<your-...>` with the appropriate values.
 After setting up the `.env` file, start the backend server:
 
 ```sh
-npm run dev
+cd backend
+node server.js
 ```
 
 ## 5. Start the Frontend
