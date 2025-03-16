@@ -17,6 +17,11 @@ Navigate to the root directory and run the following command to install dependen
 npm install
 ```
 
+### In Frontend run:
+```sh
+npm install @tailwindcss/vite
+```
+
 ## 3. Create a `.env` File
 
 Inside the `backend` folder, create a new file named `.env` and add the following environment variables:
